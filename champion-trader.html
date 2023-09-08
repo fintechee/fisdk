@@ -15,7 +15,7 @@
 	<meta property="og:title" content="WEB Trader ~ Fintechee" />
 	<meta property="og:type" content="website" />
 	<meta property="og:description" content="Fintechee provides the best WEB trader with algorithms for trading and backtesting a portfolio to help traders enhance their trading strategies." />
-	<meta property="og:url" content="/web-trader-cn/" />
+	<meta property="og:url" content="/web-trader/" />
 	<meta property="og:site_name" content="Fintechee" />
 	<meta property="og:image" content="/images/mobile_thumbnail.png" />
 	<meta property="og:image:secure_url" content="/images/mobile_thumbnail.png" />
@@ -100,14 +100,14 @@
 	<div class="row" style="width:100%;overflow:hidden">
 		<div class="ui tiny top attached tabular menu">
 			<a class="programl item" id="closeprograml"><i class="times circle icon"></i></a>
-			<a class="programl active item" data-tab="javascript" id="javascript">Javascript控制台</a>
-			<a class="programl item" data-tab="cpp" id="cpp">C / C++编译器</a>
-			<a class="programl item" data-tab="eastudio" id="eastudio">EA生成器</a>
-			<a class="programl item" data-tab="extension" id="extension">扩展</a>
+			<a class="programl active item" data-tab="javascript" id="javascript">Javascript</a>
+			<a class="programl item" data-tab="cpp" id="cpp">C / C++</a>
+			<a class="programl item" data-tab="eastudio" id="eastudio">EA Generator</a>
+			<a class="programl item" data-tab="extension" id="extension">Extension</a>
 		</div>
 		<div class="ui attached active tab segment programsl" id="javascriptseg" data-tab="javascript" style="width:100%;height:100%;padding-top:5px;padding-left:0;padding-right:0">
 			<div class="row" style="text-align:center;margin-bottom:5px">
-				<div class="ui button" id="run" onclick="run1()" style="width:200px;background:#EEEEEE">运行</div>
+				<div class="ui button" id="run" onclick="run1()" style="width:200px;background:#EEEEEE">Run</div>
 			</div>
 			<div class="row" style="background:#FFFFFF;width:100%;border-top:1px solid #EEEEEE">
 				<div id="testtext"></div>
@@ -147,73 +147,73 @@
 		<div class="main_menu_item ui winfrm simple dropdown item">
 			<i class="user icon"></i>
 			<div class="menu">
-				<a class="item" id="showaccounts">账户</a>
-				<a class="item" id="showaccountssignin">登录</a>
-				<a class="item" id="showaccountssignup">注册</a>
-				<a class="item" href="/dashboard/" target="dashboard">用户中心</a>
+				<a class="item" id="showaccounts">Account</a>
+				<a class="item" id="showaccountssignin">Sign In</a>
+				<a class="item" id="showaccountssignup">Sign Up</a>
+				<a class="item" href="/dashboard/" target="dashboard">User Center</a>
 			</div>
 		</div>
 		<div class="main_menu_item ui winfrm simple dropdown item">
 			<i class="balance scale icon"></i>
 			<div class="menu">
-				<a class="item" id="showinstruments">市场</a>
-				<a class="item" id="showinstruments2">投资品种</a>
+				<a class="item" id="showinstruments">Market</a>
+				<a class="item" id="showinstruments2">More Symbols</a>
 			</div>
 		</div>
 		<div class="main_menu_item ui winfrm simple dropdown item" id="showtradesmenuitem">
 			<i class="handshake icon"></i>
 			<div class="menu">
-				<a class="item" id="showpendingorders">挂单</a>
-				<a class="item" id="showopentrades">当前的交易</a>
-				<a class="item" id="showhistorytrades">已关闭的交易</a>
-				<a class="item" id="showcancelledorders">已取消的挂单</a>
-				<a class="item" id="showhistoryoffunding">出入金记录</a>
+				<a class="item" id="showpendingorders">Pending Orders</a>
+				<a class="item" id="showopentrades">Open Trades</a>
+				<a class="item" id="showhistorytrades">History of Trades</a>
+				<a class="item" id="showcancelledorders">Cancelled Orders</a>
+				<a class="item" id="showhistoryoffunding">History of Funding</a>
 			</div>
 		</div>
 		<div class="main_menu_item ui winfrm simple dropdown item">
 			<i class="graduation cap icon"></i>
 			<div class="menu">
-				<a class="item" id="showeas">EA管理器</a>
-				<a class="item" id="showindis">指标管理器</a>
+				<a class="item" id="showeas">EA Manager</a>
+				<a class="item" id="showindis">Indicator Manager</a>
 			</div>
 		</div>
 		<div class="main_menu_item ui winfrm simple dropdown item" id="showbt2">
 			<i class="gamepad icon"></i>
 			<div class="menu">
-				<a class="item" id="showbt">回测</a>
+				<a class="item" id="showbt">Back Testing</a>
 			</div>
 		</div>
 		<div class="main_menu_item ui winfrm simple dropdown item">
 			<i class="wrench icon"></i>
 			<div class="menu">
-				<a class="item" id="showconsole">Javascript控制台</a>
-				<a class="item" id="showconsolecpp">C / C++编译器</a>
-				<a class="item" id="showconsolegenerator">EA生成器</a>
-				<a class="item" id="showextension">扩展</a>
+				<a class="item" id="showconsole">Javascript Console</a>
+				<a class="item" id="showconsolecpp">C / C++ Compiler</a>
+				<a class="item" id="showconsolegenerator">EA Generator</a>
+				<a class="item" id="showextension">Extension</a>
 			</div>
 		</div>
 		<div class="main_menu_item ui winfrm simple dropdown item">
 			<i class="newspaper outline icon"></i>
 			<div class="menu">
-				<a class="item" id="showcalendar">日历</a>
-				<a class="item" id="shownews">新闻</a>
+				<a class="item" id="showcalendar">Calendar</a>
+				<a class="item" id="shownews">News</a>
 			</div>
 		</div>
 		<div class="main_menu_item main_menu_item2 ui winfrm simple dropdown item">
 			<i class="book icon"></i>
 			<div class="menu">
-				<a class="item" id="showdoc" target="doc" href="https://www.fintechee.com/sdk-trading/">SDK说明</a>
+				<a class="item" id="showdoc" target="doc" href="https://www.fintechee.com/sdk-trading/">SDK Trading</a>
 				<a class="item" id="showdoc2" target="doc" href="https://www.fintechee.com/github/Expert-Advisor-Studio.html">Github</a>
 			</div>
 		</div>
 		<div class="main_menu_item ui winfrm simple dropdown item">
 			<i class="paint brush icon"></i>
 			<div class="menu">
-				<a class="item" id="showcolorpicker">主题颜色更改</a>
-				<a class="item" id="changecolortobright">明亮主题</a>
-				<a class="item" id="changecolortodark">深色主题</a>
-				<a class="item" id="changecolortoblue">蓝色主题</a>
-				<a class="item" id="changecolortosea">海洋主题</a>
+				<a class="item" id="showcolorpicker">Color Picker</a>
+				<a class="item" id="changecolortobright">Bright Theme</a>
+				<a class="item" id="changecolortodark">Dark Theme</a>
+				<a class="item" id="changecolortoblue">Blue Theme</a>
+				<a class="item" id="changecolortosea">Sea Theme</a>
 			</div>
 		</div>
 		<div class="main_menu_item main_menu_item2 ui winfrm simple dropdown item">
@@ -227,10 +227,10 @@
 			</div>
 		</div>
 		<div class="main_menu_item ui winfrm simple dropdown item">
-			<div>中文</div>
+			<div>EN</div>
 			<div class="menu">
-				<a class="item" href="/web-trader/">EN(English)</a>
-				<div class="item">中文(Chinese)</div>
+				<a class="item" href="/web-trader-cn/">中文(Chinese)</a>
+				<div class="item">EN(English)</div>
 			</div>
 		</div>
 	</div>
@@ -390,8 +390,8 @@
 </div>
 <div id="reserved_zone"></div>
 
-<script type="text/javascript" src="/js/cc/lang/cn.js"></script>
-<script type="text/javascript" src="/js/cc/regular.js"></script>
+<script type="text/javascript" src="/js/cc/lang/en.js"></script>
+<script type="text/javascript" src="/js/cc/championship1.js"></script>
 <script type="text/javascript" src="/js/cc/builtin.js"></script>
 <script type="text/javascript" src="/js/jquery/jquery-3.2.1.min.js"></script>
 
@@ -426,7 +426,7 @@
 
 
 
-	var backtest_html = "\/backtest-cn"
+	var backtest_html = "\/backtest"
 	var editor = null
 	var colorStyle = "blue"
 	var brokerlessMode = false
@@ -551,7 +551,7 @@
 		})
 
 		$('#showeas').on('click', function () {
-    	showEAs()
+      showEAs()
 
 			showSidebar('eassidebar', false)
 		})
@@ -991,6 +991,7 @@
 			$(".bttmsdbr .ui.grid> .row:first-child").hide();
 		}
 	}
+
 </script>
 
 </body>
