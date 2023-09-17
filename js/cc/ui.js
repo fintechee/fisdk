@@ -23,6 +23,7 @@ window.fiac = {
   },
   init: function () {
     this.copyTradingPlatformId["fe"] = "1267340";
+    this.copyTradingPlatformId["c1"] = "5367";
     this.reset();
 
     let that = this;
@@ -5561,7 +5562,7 @@ window.fiui.privilegeList = {
     <div class="col-12" style="text-align:center">
     <div class="btn-group">
     <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close">Cancel</button>
-    <button type="button" class="btn btn-primary" id="btnGrantPrivilege">Propose</button>
+    <button type="button" class="btn btn-primary" id="btnGrantPrivilege">Grant</button>
     </div>
     </div>
     </div>
