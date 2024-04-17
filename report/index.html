@@ -852,8 +852,8 @@
 
   function init () {
 
-    if (typeof localStorage.rpt == 'string') {
-        let rpt = JSON.parse(localStorage.rpt);
+    if (typeof localStorage.getItem('rpt') == 'string') {
+        let rpt = JSON.parse(localStorage.getItem('rpt'));
         let tm = new Date().toString();
 
         let closedTransactions = `
@@ -1148,7 +1148,7 @@
         $('#pendingOrders').html(pendingOrders);
         $('#summary').html(summary);
 
-        delete localStorage.rpt;
+        localStorage.removeItem('rpt');
     }
 
   }
